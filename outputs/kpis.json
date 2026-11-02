@@ -1,0 +1,29 @@
+{
+  "customers": 15000,
+  "churn_rate": 0.31926666666666664,
+  "best_model": "Gradient Boosting",
+  "best_auc": 0.8869,
+  "best_cv_auc": 0.8939,
+  "capture_top10": 0.3017331384422635,
+  "capture_top20": 0.534975986636041,
+  "at_risk_customers": 6353,
+  "at_risk_revenue_lakh": 385.9,
+  "annual_revenue_churned_lakh": 461.900664,
+  "n_features": 30,
+  "top5_drivers": [
+    "Contract type",
+    "Usage drop rate (recent vs early 3 months)",
+    "Tenure (months)",
+    "Unresolved support tickets",
+    "Bill change (month 5-6 vs 1-4)"
+  ],
+  "contract_shap": {
+    "Two year": -1.651,
+    "One year": -0.531,
+    "Month-to-month": 0.881
+  },
+  "roi_saved": 1060,
+  "roi_revenue_lakh": 101.83992,
+  "roi_cost_lakh": 32.27562,
+  "roi_multiple": 2.1553203315691536
+}

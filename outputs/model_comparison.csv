@@ -1,0 +1,4 @@
+model,cv_roc_auc_mean,cv_roc_auc_std,test_roc_auc,test_pr_auc,threshold,precision,recall,f1,brier
+Logistic Regression,0.8827,0.0064,0.8768,0.7909,0.34,0.6487,0.7787,0.7078,0.1287
+Random Forest,0.8856,0.0049,0.8766,0.7981,0.38,0.687,0.7422,0.7135,0.1271
+Gradient Boosting,0.8939,0.007,0.8869,0.8118,0.36,0.696,0.7505,0.7223,0.1223

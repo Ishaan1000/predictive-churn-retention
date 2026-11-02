@@ -1,0 +1,5 @@
+priority_tier,customers,avg_churn_probability,actual_churn_rate,avg_monthly_bill,revenue_at_risk_lakh,avg_tenure_months,avg_usage_drop_rate,avg_recent_support_calls,share_month_to_month
+Tier 1 - Critical,3305,0.834,0.832,801.0,264.9,12.9,0.282,0.91,0.849
+Tier 2 - High,1604,0.499,0.498,794.0,75.9,14.4,0.079,0.6,0.803
+Tier 3 - Watch,1444,0.318,0.339,817.0,45.1,18.2,0.067,0.64,0.749
+Not at risk,8647,0.088,0.087,845.0,75.2,28.5,0.005,0.36,0.306

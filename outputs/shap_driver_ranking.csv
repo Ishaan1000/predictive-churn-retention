@@ -1,0 +1,31 @@
+feature,mean_abs_shap,direction,share_of_total,label
+contract_type,0.9516,"highest risk: Month-to-month, lowest: Two year",0.2495,Contract type
+usage_drop_rate,0.8042,higher -> more churn,0.2109,Usage drop rate (recent vs early 3 months)
+tenure_months,0.3675,higher -> less churn,0.0964,Tenure (months)
+unresolved_tickets,0.2953,higher -> more churn,0.0774,Unresolved support tickets
+bill_change_pct,0.2796,higher -> more churn,0.0733,Bill change (month 5-6 vs 1-4)
+support_calls_recent,0.1852,higher -> more churn,0.0486,"Support calls, last 3 months"
+lifetime_revenue,0.1748,higher -> less churn,0.0458,Lifetime revenue
+paperless_billing,0.1012,higher -> less churn,0.0265,Paperless billing
+avg_dropped_call_pct,0.0901,higher -> more churn,0.0236,Dropped-call rate
+payment_method,0.0829,"highest risk: Cash / voucher, lowest: UPI",0.0217,Payment method
+avg_data_gb,0.0532,higher -> more churn,0.0139,Average data use (GB/month)
+age,0.0476,higher -> less churn,0.0125,Age
+recent_vs_last_month,0.0461,higher -> more churn,0.0121,Recent vs last month
+has_device_emi,0.0438,higher -> less churn,0.0115,Device EMI on account
+support_calls_6m,0.0436,higher -> more churn,0.0114,"Support calls, 6 months"
+months_usage_declined,0.0391,higher -> more churn,0.0103,Months with falling usage
+avg_voice_minutes,0.0368,higher -> less churn,0.0096,Average voice minutes
+last_month_vs_avg,0.0324,higher -> less churn,0.0085,Last month usage vs 6-month average
+avg_resolution_hours,0.0258,higher -> less churn,0.0068,Avg resolution hours
+avg_monthly_bill,0.0223,higher -> less churn,0.0058,Average monthly bill
+avg_sms,0.0217,higher -> more churn,0.0057,Avg sms
+plan,0.0177,"highest risk: Standard, lowest: Basic",0.0046,Plan
+region,0.0149,"highest risk: Central, lowest: West",0.0039,Region
+max_days_late,0.0109,higher -> more churn,0.0029,Max days late
+network_tickets,0.008,higher -> less churn,0.0021,Network tickets
+avg_csat,0.0075,higher -> less churn,0.002,Avg csat
+late_payments,0.004,higher -> more churn,0.001,Late payments
+has_streaming_addon,0.0023,higher -> more churn,0.0006,Has streaming addon
+n_lines,0.0022,higher -> less churn,0.0006,Number of lines
+billing_tickets,0.0014,higher -> less churn,0.0004,Billing tickets
